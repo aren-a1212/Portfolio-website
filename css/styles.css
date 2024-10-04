@@ -3,7 +3,7 @@
 --secondary-color:#e0b354;
 --textcolor: black;
 --dark-grey:#2b2b2b;
---mainfontfamily:italic;
+--mainfontfamily:"Roboto Condensed", sans-serif;
 --maintxtcolor:brown;
 
 }
@@ -89,8 +89,9 @@ a:active{
 form{
     display: inline-block;
     background-color: lab(lightness a b);
-    font-family: 'Courier New', Courier, monospace;
+    font-family:var(--mainfontfamily) 
 }
+
 header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
